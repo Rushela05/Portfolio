@@ -265,3 +265,23 @@ footer {
     color: #5fb4e8;
 }
 
+/*Styling the Project.html*/
+
+header {
+    margin-left: 120px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+
+.Blog-Post{
+    margin-left: 120px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+
+.Blog-Post p {
+    text-align: justify;
+    font-size: larger;
+}
