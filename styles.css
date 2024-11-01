@@ -285,3 +285,52 @@ header {
     text-align: justify;
     font-size: larger;
 }
+
+/*Styling the Gallery*/
+.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: left;
+    width: 180px;
+    margin: 0 20px;
+}
+
+.gallery:hover {
+    border: 1px solid rgb(88, 86, 86);
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: xx-small;
+}
+
+/*styling the reading time icon*/
+.read-time{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 111, 109);
+    font-size: 14px;
+}
+
+.read-time .icon{
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.date{
+    font-size:xx-small;
+    color: rgb(112, 111, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+
+}
