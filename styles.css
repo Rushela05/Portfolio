@@ -120,7 +120,7 @@ ul {
 }
 
 /*Styling the contact me */
-.contact {
+#contact {
     margin-left: 120px;
     padding: 20px;
     margin-top: 80px;
@@ -132,7 +132,7 @@ ul {
 }
 
 
-.contact input, .contact textarea {
+#contact input, .contact textarea {
     width: 30%;
     padding: 10px;
     margin: 10px 0;
@@ -140,7 +140,7 @@ ul {
     border-radius: 5px;
     text-align: center;
 }
-.contact button {
+#contact button {
     background-color: #BEE9E8;
     color: black;
     border: none;
@@ -149,7 +149,7 @@ ul {
     transition: background-color 0.3s ease;
 }
 
-.contact button:hover{
+#contact button:hover{
     background-color:#BEE9E8;
 }
 
