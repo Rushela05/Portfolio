@@ -132,25 +132,36 @@ ul {
 }
 
 
-#contact input, .contact textarea {
+#contact input, #contact textarea {
     width: 30%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 15px;
 }
 #contact button {
     background-color: #BEE9E8;
     color: black;
+    margin: 10px 0;
+    width: 20%;
+    height: 40px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 15px;
 }
 
 #contact button:hover{
-    background-color:#BEE9E8;
+    background-color:#159795;
+}
+
+#contact button:hover {
+    background-color: #62B6CB;
+    box-shadow: 0 3px #CAE9FF;
+    transform: translateY(4px);
 }
 
 footer {
