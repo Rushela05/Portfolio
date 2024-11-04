@@ -105,6 +105,10 @@ ul {
     font-size: larger;
 }
 
+p.profile::first-letter {
+    color: black;
+}
+
 .profile {
     display: flex;
     align-items: center;
@@ -312,6 +316,11 @@ header {
     padding: 5px;
     text-align: center;
     font-size: xx-small;
+}
+
+/*Negation Pseudo class*/
+ul:not(.Blog-Post){
+    list-style:circle;
 }
 
 /*styling the reading time icon*/
