@@ -121,7 +121,7 @@ ul {
 }
 
 /*Styling the contact me */
-.contact {
+#contact {
     margin-left: 120px;
     padding: 20px;
     margin-top: 80px;
@@ -133,25 +133,36 @@ ul {
 }
 
 
-.contact input, .contact textarea {
+#contact input, #contact textarea {
     width: 30%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 15px;
 }
-.contact button {
+#contact button {
     background-color: #BEE9E8;
     color: black;
+    margin: 10px 0;
+    width: 20%;
+    height: 40px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 15px;
 }
 
-.contact button:hover{
-    background-color:#BEE9E8;
+#contact button:hover{
+    background-color:#159795;
+}
+
+#contact button:hover {
+    background-color: #62B6CB;
+    box-shadow: 0 3px #CAE9FF;
+    transform: translateY(4px);
 }
 
 footer {
@@ -254,3 +265,88 @@ footer {
 .About-me p a:hover{
     color: #5fb4e8;
 }
+
+/*Styling the Project.html*/
+
+header {
+    margin-left: 120px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+
+.Blog-Post{
+    margin-left: 120px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+
+.Blog-Post p {
+    text-align: justify;
+    font-size: larger;
+}
+
+/*Styling the Gallery*/
+.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: left;
+    width: 180px;
+    margin: 0 20px;
+}
+
+.gallery:hover {
+    border: 1px solid rgb(88, 86, 86);
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: xx-small;
+}
+
+/*styling the reading time icon*/
+.read-time{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 111, 109);
+    font-size: 16px;
+    display: inline;
+}
+
+.read-time .icon{
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.date{
+    color: rgb(112, 111, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    font-size: 15px;
+    margin-right: 5px;
+
+}
+
+.Blog-Post a {
+    font-size: 20px;
+    transition: color 0.3 ease; /*transistions*/
+    text-decoration: none;
+}
+
+/*change the color when hovering*/
+
+.Blog-Post a:hover {
+    color: #1B4965;
+}
+
