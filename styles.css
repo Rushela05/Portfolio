@@ -318,11 +318,6 @@ header {
     font-size: xx-small;
 }
 
-/*Negation Pseudo class*/
-ul:not(.Blog-Post){
-    list-style:circle;
-}
-
 /*styling the reading time icon*/
 .read-time{
     display: flex;
