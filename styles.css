@@ -1,28 +1,29 @@
+/*General Styling*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #CAE9FF;
-    color: #1B4965;
-    line-height: 1.6;
+    background-color: #CAE9FF; 
+    color: #1B4965; /*text color*/
+    line-height: 1.6; /* for better spacing*/
     padding: 20px;
 }
 
 .navbar {
-    background: linear-gradient(to right, #1B4965, #62B6CB );
+    background: linear-gradient(to right, #1B4965, #62B6CB ); /*Gradient Background*/
     padding: 0 20px;
-    border-bottom: 4px solid #1B4965;
-    box-shadow: 0px 4px 2px rgb(0,0,0,0.1);
+    border-bottom: 4px solid #1B4965; /*border for separation*/
+    box-shadow: 0px 4px 2px rgb(0,0,0,0.1); /*light shadow*/
     display: flex;
     justify-content: space-between; /*Spaces out items evenly*/
     align-items: center;
     position:absolute;
     width: 92%;
-    z-index: 1000;
+    z-index: 1000; /*keeps navbar on top of other content*/
 }
 
 .navbar-left {
     display: flex;
     align-items: center;
-    color: #CAE9FF;
+    color: #CAE9FF; /*navbar text color*/
     text-shadow: 5px;
 }
 
@@ -33,7 +34,7 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: #BEE9E8;
+    color: #BEE9E8; /*link color*/
     font-weight: bold;
     font-size: larger;
     padding: 10px;
@@ -41,12 +42,12 @@ body {
 }
 
 .navbar a:hover {
-    color: #1B4965;
-    transition: color 0.3s;
+    color: #1B4965; /*darker color on hover*/
+    transition: color 0.3s; /*smooth color transition*/
 }
 
 ul {
-    list-style: none;
+    list-style: none; /*remove bullets from lists*/
 }
 
 /*Styling the sidebar*/
@@ -108,12 +109,12 @@ ul {
     display: flex;
     align-items: center;
     padding: 20px;
-    border-radius: 4px solid #1B4965;
+    border-radius: 4px solid #1B4965; /*border around profile section*/
     margin-top: 20px;
 }
 
 .profile img {
-    border-radius: 50%;
+    border-radius: 50%; /*circular image*/
     width: 120px;
     height: 60%;
     margin-right: 20px;
@@ -127,7 +128,7 @@ ul {
     color: white;
     background-color: #1b4965;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /*shadow for depth*/
     
 }
 
